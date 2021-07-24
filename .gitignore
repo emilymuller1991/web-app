@@ -1,0 +1,6 @@
+# ignore repos
+<<<<<<< HEAD
+front_end/.env
+front_end/node_modules/
+front_end/package-lock.json
+
