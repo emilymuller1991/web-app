@@ -14,7 +14,9 @@ In this example, we will create a web app which displays two images side by side
  
 ### Postgres DB
 Install postgres: https://www.postgresql.org/download/.
+
 Create DB 'example' as user postgres.
+
 Dump example data:
 ```
 web-app/sql$ psql -U postgres example < ratings
@@ -30,7 +32,7 @@ export db='example'
 export db_user='postgres'
 export db_host='localhost'
 export db_port=5432
-
+```
 run: web-app/back_end$ python app.py
 
 ### React Front-end
