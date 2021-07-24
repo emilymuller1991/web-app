@@ -6,10 +6,6 @@ Install Node.js with npm client from https://docs.npmjs.com/downloading-and-inst
 
 This will install node modules.
 
-## `npm start`
-
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
