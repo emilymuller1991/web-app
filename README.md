@@ -39,7 +39,7 @@ run: web-app/back_end$ python app.py
 ### React Front-end
 Install node.js: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm.
 
-Set environmental variables in new file web-app/front_end/.env/.
+Set environmental variables in new file web-app/front_end/.env:
 ```
 REACT_APP_BACK_END_HOST ='localhost'
 REACT_APP_BACK_END_PORT = '5000'
@@ -48,6 +48,7 @@ REACT_APP_API_KEY = 'API_KEY_from_GOOGLE_STREET_VIEW_API'
 Get api key from Google Console: https://console.cloud.google.com/home/dashboard?project=perceptions-22
 
 run: web-app/front_end$ npm install
+
 run: web-app/front_end$ npm start
 
 
