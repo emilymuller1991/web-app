@@ -34,7 +34,8 @@ export db_user='postgres'
 export db_host='localhost'
 export db_port=5432
 ```
-run: web-app/back_end$ python app.py
+run: 
+```web-app/back_end$ python app.py```
 
 ### React Front-end
 Install node.js: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm.
@@ -45,11 +46,13 @@ REACT_APP_BACK_END_HOST ='localhost'
 REACT_APP_BACK_END_PORT = '5000'
 REACT_APP_API_KEY = 'API_KEY_from_GOOGLE_STREET_VIEW_API'
 ```
-Get api key from Google Console: https://console.cloud.google.com/home/dashboard?project=perceptions-22
+Get api key from Google Console: https://console.cloud.google.com.
 
-run: web-app/front_end$ npm install
+run: 
+```web-app/front_end$ npm install```
 
-run: web-app/front_end$ npm start
+run: 
+```web-app/front_end$ npm start```
 
 
 
