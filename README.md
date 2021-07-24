@@ -9,12 +9,8 @@ In this example, we will create a web app which displays two images side by side
 
 ## Requirements
 * postgres
-* flask
-  ** psycopg2
-  ** flask-cors
-* node.js
-  ** react-youtube
-  ** react-bootstrap
+* flask, psycopg2, flask-cors
+* node.js, react-youtube, react-bootstrap
  
 ### Postgres DB
 Install postgres: https://www.postgresql.org/download/.
