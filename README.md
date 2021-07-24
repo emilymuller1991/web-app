@@ -25,6 +25,7 @@ web-app/sql$ psql -U postgres example < images
 
 ### Flask Back-end
 ``` pip install requirements.txt ```
+
 Set environmental variables:
 ```
 export app_host='localhost'
@@ -36,7 +37,8 @@ export db_port=5432
 run: web-app/back_end$ python app.py
 
 ### React Front-end
-Install node.js:https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+Install node.js: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm.
+
 Set environmental variables in new file web-app/front_end/.env/.
 ```
 REACT_APP_BACK_END_HOST ='localhost'
